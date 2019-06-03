@@ -1,5 +1,7 @@
 # DollarLineDrawing
 
+<img src='readme_images/lineDrawingExtraction.JPG' width=100%/> 
+
 ## Setup
 
 **NOTE** 
@@ -12,8 +14,7 @@ https://github.com/mrezanejad/DollarLineDrawing.git
 ```
 This will create a directory `DollarLineDrawing/` containing all of the code seen here.
 <br>
-
-<img src='readme_images/lineDrawingExtraction.JPG' width=100%/> 
+This package uses Structured Edge Detection Toolbox (https://github.com/pdollar/edges). 
 
 ## Usage
 
@@ -56,21 +57,12 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},
 year = {2019}
 }
-@ARTICLE{iverson_llOps, 
-author={L. A. {Iverson} and S. W. {Zucker}}, 
-journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-title={Logical/linear operators for image curves}, 
-year={1995}, 
-volume={17}, 
-number={10}, 
-pages={982-996}, 
-keywords={computer vision;edge detection;feature extraction;Boolean functions;image segmentation;logical/linear operators;image curves;image measurement operators;early vision;linear operator theory;Boolean logic;low-order differential structure;linear model;tangential conditions;curvilinear differential structure;line-like features;edge-like features;false-positive responses;edge detection;feature extraction;computer vision;Image edge detection;Computer vision;Gaussian noise;Detectors;Integrated circuit noise;Boolean functions;Ear;Feature extraction;Biological information theory;Machine vision}, 
-doi={10.1109/34.464562}, 
-ISSN={0162-8828}, 
-month={Oct},}
-
-
-
+@inproceedings{DollarICCV13edges,
+  author    = {Piotr Doll\'ar and C. Lawrence Zitnick},
+  title     = {Structured Forests for Fast Edge Detection},
+  booktitle = {ICCV},
+  year      = {2013},
+}
 ```
 
 ## Contact
