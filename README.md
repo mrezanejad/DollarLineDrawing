@@ -1,7 +1,31 @@
 # DollarLineDrawing
 
+## Setup
+
+**NOTE** 
+
+THIS CODE IS TESTED WITH MATLAB 2018b (Signal Processing Toolbox is needed!)
+
+To download the code, open a terminal and type:
+```
+https://github.com/mrezanejad/DollarLineDrawing.git
+```
+This will create a directory `DollarLineDrawing/` containing all of the code seen here.
+<br>
+
 <img src='readme_images/lineDrawingExtraction.JPG' width=100%/> 
 
+## Usage
+
+```
+generate_lineDrawingFromRealImage('path/to/your/image')
+```
+
+## Example
+
+```
+generate_lineDrawingFromRealImage('office.jpg')
+```
 
 ## Updating
 Assuming you have not made any local changes to these files, you can update your local code to the newest version with [git pull](https://git-scm.com/docs/git-pull).
